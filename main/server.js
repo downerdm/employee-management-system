@@ -134,8 +134,7 @@ const db = mysql.createConnection(
       db.query = util.promisify(db.query);
 
       let roles = await db.query('SELECT * FROM role');
-      console.log(roles);
-  
+        
       let roleList = roles.map( (currRole) => {
         return {
           name: currRole.title,

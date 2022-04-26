@@ -42,9 +42,18 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 The following video shows an example of the application being used from the command line:
 
-[![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./Assets/12-sql-homework-video-thumbnail.png)](https://2u-20.wistia.com/medias/2lnle7xnpk)
+<https://drive.google.com/file/d/1zqqrjP77sJvyp0bCQVeKN3pV2YUkQata/view?usp=sharing>
 
 ## Screenshots
+
+Server Connection and Option List
+![Server Connection and Option List](./assets/images/ServerConnect_Options.png)
+
+View All Departments
+![View All Departments](./assets/images/ViewAllDepartments.png)
+
+Add A Department
+![Add a Department](./assets/images/AddDept.png)
 
 ## GitHub Repository Link
 
