@@ -26,7 +26,7 @@ const db = mysql.createConnection(
         type: 'list',
         message: 'What would you like to do?',
         name: 'trackerList',
-        choices: ['View all departments', 'View all roles', 'View all employees', 'Add a department', 'Add a role', 'Add an employee', 'Update an employee role'],
+        choices: ['View all departments', 'View all roles', 'View all employees', 'Add a department', 'Add a role', 'Add an employee', 'Update an employee role', 'Quit'],
       }];
 
       async function getListResponse () {
@@ -45,6 +45,8 @@ const db = mysql.createConnection(
             addEmployee();
           } else if (data.trackerList === 'Update an employee role') {
             updateEmployeeRole();
+          } else if (data.trackerList === 'Quit') {
+            return;
           } 
         })
       }
